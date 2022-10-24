@@ -1,9 +1,12 @@
 import React from 'react';
-import './App.css';
+import CaHeader from "./components/CaHeader/CaHeader";
+import CaFooter from "./components/CaFooter/CaFooter";
 
 function App() {
   return (
     <>
+      <CaHeader/>
+      <CaFooter/>
     </>
   );
 }
