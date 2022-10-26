@@ -1,0 +1,23 @@
+.header{
+  padding: 30px 0;
+
+  &__left{
+    float: left;
+  }
+
+  &__right{
+    float: right;
+    &_cart{
+      margin-left: 20px;
+    }
+  }
+
+  &__nav{
+    text-align: center;
+  }
+
+  &__link{
+    margin: 0 15px;
+  }
+
+}
