@@ -4,6 +4,7 @@ import logo from 'assets/images/logo.svg';
 import search from 'assets/images/icons/search.svg';
 import cart from 'assets/images/icons/cart.svg';
 import {Container} from "react-bootstrap";
+import CaLink from "../CalLink/CaLink";
 
 const CaHeader: FC = () => {
     return (
@@ -21,10 +22,10 @@ const CaHeader: FC = () => {
                     </a>
                 </div>
                 <nav className={cl.header__nav}>
-                    <a href="#" className={cl.header__link} >all products</a>
-                    <a href="#" className={cl.header__link} >solutions</a>
-                    <a href="#" className={cl.header__link} >about</a>
-                    <a href="#" className={cl.header__link} >support</a>
+                    <CaLink to="#" className={cl.header__link} >all products</CaLink>
+                    <CaLink to="#" className={cl.header__link} >solutions</CaLink>
+                    <CaLink to="#" className={cl.header__link} >about</CaLink>
+                    <CaLink to="#" className={cl.header__link} >support</CaLink>
                 </nav>
             </Container>
         </header>

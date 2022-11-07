@@ -1,10 +1,11 @@
-import React from 'react';
+import React, {FC, PropsWithChildren} from 'react';
+import cl from './CaButton.module.scss';
 
-const CaButton = () => {
+const CaButton: FC<PropsWithChildren> = ({children}) => {
     return (
-        <div>
-            
-        </div>
+        <button className={cl.btn}>
+            {children}
+        </button>
     );
 };
 

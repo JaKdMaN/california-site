@@ -1,10 +1,11 @@
-import React from 'react';
+import React, {FC, PropsWithChildren} from 'react';
+import cl from './CaHeadline.module.scss';
 
-const CaHeadline = () => {
+const CaHeadline: FC<PropsWithChildren> = ({children}) => {
     return (
-        <div>
-            
-        </div>
+        <h2 className={cl.headline}>
+            {children}
+        </h2>
     );
 };
 

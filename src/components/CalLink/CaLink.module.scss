@@ -1,0 +1,31 @@
+.link__wrapper{
+  display: inline-block;
+  position: relative;
+  margin-bottom: 15px;
+
+  .link {
+    font-family: var(--secondary-font);
+    color: inherit;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    text-decoration: none;
+
+    &:hover{
+      color: inherit;
+    }
+  }
+
+  .underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    border-bottom: 1px #000000 solid;
+    transition: all .3s ease;
+  }
+
+  .underline.hovered {
+    width: 100%;
+  }
+}

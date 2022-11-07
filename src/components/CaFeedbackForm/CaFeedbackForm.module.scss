@@ -1,0 +1,48 @@
+.feedback {
+  text-align: center;
+  padding: 40px 10px;
+  max-width: 930px;
+  margin: 60px auto 20px;
+
+  background: #DCE5E2;
+  border-radius: 16px;
+
+  &__image {
+    margin: 15px 0;
+  }
+
+  &__form {
+    min-width: 300px;
+
+    &__input {
+      font-family: var(--secondary-font);
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      padding: 16px 0 16px 30px;
+      color: #000000;
+      background: transparent;
+      outline: none;
+
+      border: 1px solid #000000;
+      border-radius: 54px 0 0 54px;
+
+      &::placeholder{
+        color: #000000;
+      }
+    }
+
+    &__button {
+      font-family: var(--secondary-font);
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+
+      background: #000000;
+      color: #FFFFFF;
+      padding: 16px 30px;
+      border-radius: 0 200px 200px 0;
+      border: 1px solid #000000;
+    }
+  }
+}
